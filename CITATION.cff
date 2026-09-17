@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: LensVLM
+url: https://github.com/apple-aiml-research/ml-lensvlm
+preferred-citation:
+  type: article
+  title: "LensVLM: Selective Context Expansion for Compressed Visual Representation of Text"
+  authors:
+    - family-names: Xie
+      given-names: Roy
+    - family-names: Friedman
+      given-names: Dan
+    - family-names: Yu
+      given-names: Donghan
+    - family-names: Pan
+      given-names: Bowen
+    - family-names: Fifty
+      given-names: Christopher
+    - family-names: Kim
+      given-names: Jang-Hyun
+    - family-names: Du
+      given-names: Xianzhi
+    - family-names: Gan
+      given-names: Zhe
+    - family-names: Rathod
+      given-names: Vivek
+    - family-names: Dhingra
+      given-names: Bhuwan
+  year: 2026
+  journal: "arXiv preprint arXiv:2605.07019"
+  url: https://arxiv.org/abs/2605.07019

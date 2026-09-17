@@ -1,0 +1,142 @@
+NOTICE
+======
+
+LensVLM
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+
+This NOTICE file accompanies both this source repository and the LensVLM-9B
+model weights distributed at https://huggingface.co/apple/LensVLM-9B.
+
+
+-------------------------------------------------------------------------------
+1. Apple-authored source code
+-------------------------------------------------------------------------------
+
+The source code in this repository was authored by Apple Inc. and is released
+under the Apple Sample Code License. See the accompanying LICENSE file.
+
+This source code is not derived from, and contains no code copied from, the
+third-party work identified in Section 3 below.
+
+
+-------------------------------------------------------------------------------
+2. LensVLM-9B model weights
+-------------------------------------------------------------------------------
+
+The LensVLM-9B model weights are released under the Apple Machine Learning
+Research Model License.
+
+    Apple Machine Learning Research Model is licensed under the Apple Machine
+    Learning Research Model License Agreement.
+
+That license limits use of the weights to non-commercial Research Purposes.
+Applying these terms to the weights as a whole is permitted by Section 4 of the
+Apache License, Version 2.0, which governs the original work identified in
+Section 3 below.
+
+
+-------------------------------------------------------------------------------
+3. Third-party material: Qwen3.5-9B (Apache License, Version 2.0)
+-------------------------------------------------------------------------------
+
+The LensVLM-9B model is a Derivative Work of the following third-party work,
+which is licensed under the Apache License, Version 2.0:
+
+    Work:      Qwen3.5-9B
+    Source:    https://huggingface.co/Qwen/Qwen3.5-9B
+    Copyright: Copyright 2026 Alibaba Cloud
+    License:   Apache License, Version 2.0
+
+A complete copy of the Apache License, Version 2.0 -- reproduced verbatim as
+received with the original work -- is provided in the accompanying file:
+
+    ACKNOWLEDGEMENTS
+
+You may also obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+Attribution notices retained from the original work:
+
+    @misc{qwen3.5,
+        title  = {{Qwen3.5}: Towards Native Multimodal Agents},
+        author = {{Qwen Team}},
+        month  = {February},
+        year   = {2026},
+        url    = {https://qwen.ai/blog?id=qwen3.5}
+    }
+
+The original work does not include a "NOTICE" text file as part of its
+distribution. Accordingly, there are no upstream NOTICE attribution notices to
+reproduce. All copyright, patent, trademark, and attribution notices that are
+present in the original work are retained above and in ACKNOWLEDGEMENTS.
+
+"Qwen" is a trademark of Alibaba Group. Its use here is solely to identify the
+origin of the original work, as permitted by Section 6 of the Apache License,
+Version 2.0. Neither Alibaba Cloud nor the Qwen Team endorses LensVLM.
+
+
+-------------------------------------------------------------------------------
+4. Statement of modifications -- NOT A CONTRIBUTION
+-------------------------------------------------------------------------------
+
+NOT A CONTRIBUTION.
+
+Apple Inc. has changed files of the original work identified in Section 3. All
+such modifications are Copyright (C) 2026 Apple Inc. All Rights Reserved, and
+are expressly designated in writing as "NOT A CONTRIBUTION" within the meaning
+of Section 1 of the Apache License, Version 2.0. Nothing in this distribution
+is intentionally submitted to Alibaba Cloud, the Qwen Team, or any other
+licensor for inclusion in the original work, and no Contribution as defined by
+Section 1 of the Apache License, Version 2.0 is made or intended.
+
+The files listed below were changed by Apple Inc. Because these files are
+binary tensor archives or JSON documents, neither of which supports embedded
+comments, the prominent notice required by Section 4(b) of the Apache License,
+Version 2.0 is given here and in the accompanying model card.
+
+Files CHANGED by Apple Inc. (relative to Qwen/Qwen3.5-9B):
+
+    model.safetensors        Model weights fine-tuned by Apple Inc. for
+                             selective context expansion over compressed page
+                             images. Changed. NOT A CONTRIBUTION.
+
+    config.json              Re-serialized by a newer version of the
+                             Transformers library and updated with Apple
+                             training/inference settings. The model
+                             architecture, hidden size, layer count, layer
+                             types, and vocabulary size are unchanged from the
+                             original work. Changed. NOT A CONTRIBUTION.
+
+    tokenizer.json           Re-serialized by a newer version of the
+    tokenizer_config.json    Transformers library (tokenizer class
+                             "Qwen2Tokenizer" to "TokenizersBackend"). The
+                             vocabulary is byte-for-byte identical to the
+                             original work; no tokens were added, removed, or
+                             remapped. Changed. NOT A CONTRIBUTION.
+
+    generation_config.json   Decoding defaults set by Apple Inc.
+    processor_config.json    Image/video preprocessing defaults set by Apple
+                             Inc. for compressed-page rendering. Changed.
+                             NOT A CONTRIBUTION.
+
+Files redistributed UNMODIFIED from the original work:
+
+    chat_template.jinja      Byte-for-byte identical to the original work.
+
+No file of the original work was removed from the distribution in a way that
+would strip a copyright, patent, trademark, or attribution notice.
+
+
+-------------------------------------------------------------------------------
+5. Other third-party material
+-------------------------------------------------------------------------------
+
+Additional third-party material bundled with this repository, including the
+DejaVu fonts used for deterministic page rendering, is identified in the
+accompanying ACKNOWLEDGEMENTS file.
