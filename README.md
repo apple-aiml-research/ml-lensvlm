@@ -151,7 +151,7 @@ ml-lensvlm/
 This software and accompanying models have been released under the following
 licenses:
 - Code: [Apple Sample Code License (ASCL)](./LICENSE)
-- ML model: Apple Machine Learning Research Model License
+- ML model: [Apple Machine Learning Research Model License](https://huggingface.co/apple/LensVLM-9B/blob/main/LICENSE)
 
 ## Acknowledgements
 
